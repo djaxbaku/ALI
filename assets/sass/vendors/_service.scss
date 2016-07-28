@@ -1,0 +1,128 @@
+.service{
+	.onemore{
+		margin-top: 100px;
+		p{
+			font-size: 30px;
+			span{
+				color: #f69b37;
+			}
+		}
+		h6{
+			text-transform: uppercase;
+			font-size: 13px;
+			color: $darkbg;
+		}
+
+		.btn1{
+			margin: 0 auto;
+			width: 140px;
+			background-color: $btnclr;
+			color: white;
+			letter-spacing: 1px;
+			font-size: 14px;
+			padding-top:10px;
+			padding-bottom: 10px;
+			border-radius: 30px;
+			margin-top: 30px;
+			margin-right: 600px;
+			transition: 0.2s all linear;
+
+		}
+		.btn2{ 
+			margin: 0 auto;
+			width: 140px;
+			background-color: #f69b37;
+			color: white;
+			letter-spacing: 1px;
+			font-size: 14px;
+			padding-top:10px;
+			padding-bottom: 10px;
+			border-radius: 30px;
+			margin-right: 420px;
+			margin-top: -39px;
+			transition: 0.2s all linear;
+
+		}
+		.btn1:hover, .btn2:hover{
+			cursor: pointer;
+			box-shadow:0 0 10px rgba(0,0,0,0.5);
+		}
+		.bb{
+			border-bottom:1px solid $graybg;
+			margin-top:100px; 
+		}
+
+	}
+	.final{
+		margin-top: 70px;
+		letter-spacing: 1px;
+		font-size: 18px;
+		.first-child{
+			margin-left: 40px;
+		}
+		.second-child{
+				margin-top: 35px;
+			}
+		
+		.col-md-3{
+
+			width: 250px;
+			ul {padding:0;
+				list-style-type: none;
+				a{
+					line-height: 13px;
+					font-size: 12px;
+				color: #93a1a7;}
+			}
+
+		}
+		span{
+			font-size: 12px;
+			color: #93a1a7;
+			line-height: 17px;
+		}
+		input{
+			border: 1px solid $graybg;
+			width: 220px;
+			font-size: 12px;
+			height: 45px;
+
+		}
+		button{
+			padding:10px;
+			background-color:$btnclr;
+			border:none;
+			color: white;
+			letter-spacing: 1px; 
+			position:relative;
+			top: -45px;
+			left:  210px;
+
+		}
+
+	}
+	.finalfinal{
+		margin-top: 80px;
+		padding-top: 20px;
+		border-top:1px solid $graybg;
+		color: $darkbg;
+		height: 30px;
+	}
+	.end{
+		display:inline-block;
+		border-bottom:450px solid #f69b37;
+		border-right:450px solid transparent;
+		position:relative;
+		top: -480px;
+
+	}
+	.end2{
+		display:inline-block;
+		border-bottom:510px solid $btnclr;
+		border-left:510px solid transparent;
+		position:relative;
+		top: -400px;
+		left: 1000px;
+	}
+
+}

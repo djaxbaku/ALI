@@ -1,0 +1,68 @@
+$graybg:#e5eef0;
+$darkbg:#8d8d8d;
+$fontcolor:#93a1a7;
+$font: Tahoma, sans-serif;
+$btnclr:#29c2e1;
+body{
+	width:1970px;
+	margin: 0 auto;
+	font-family: Tahoma;
+}
+.header{
+	width:100%;
+ 	margin: 0 auto;
+	.preheader{
+	 color:$fontcolor;
+		height: 50px;
+		background-color: $graybg;
+		.container{
+			line-height: 50px;
+			font-family: $font;
+			font-size: 14px;
+			letter-spacing: 1px;
+			
+
+		}
+
+	}
+	.navbar{
+		height: 60px;
+	
+		.logo{
+				margin: 10px 0px 10px 10px;
+				
+				
+			
+		}
+		.col-lg-10{
+			width: 77.63333% ;
+
+			margin-left: 30px !important;
+			font-size: 10px;
+			margin-top:30px;
+			padding:0px;
+
+
+			ul li{
+
+				list-style-type:  none;
+				display: inline-block;
+			}
+			ul a{ color:$fontcolor;
+				text-decoration: none;
+				padding: 6px;
+				padding-right: 25px;
+				padding-left: 25px;
+
+
+
+			}
+			a:hover{
+				background-color: $btnclr;
+				border-radius:15px;
+				color:white;
+			}
+			
+		}
+    }
+}
