@@ -1,0 +1,72 @@
+.slider2	{
+	color: white;
+	background-color:#8d8d8d;
+	width:1970px;
+	height: 310px;
+	h3{
+		margin-top:105px;
+		
+	}
+	h1{ 
+		
+		letter-spacing: 1px;
+		font-size: 40px;
+	}
+}
+.fuckingimages{
+	
+	.text p {
+		margin-left: 0px;
+		margin-top: 100px;
+		font-size: 30px;
+		word-spacing: 2px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		letter-spacing: 2px;
+	}
+	.text h6{
+		margin-left: 0px;
+		word-spacing: 2px;
+		font-size: 16px;
+		letter-spacing: 1px;
+		margin-top: -10px;
+	}
+	.col-md-6
+	{
+		width: 555px;
+		background-color:$darkbg;
+		margin-right: 30px;
+		margin-bottom: 30px;
+		height: 380px;
+		transition: 0.2s all linear;
+h3{
+			display: none;
+		}
+	}
+	.text2, h6{
+		font-size: 18px;
+		margin: 0 auto;
+		height: auto;
+		letter-spacing: 1px;
+		color: white;
+		
+	}
+	.text2{
+		margin-top: 160px;
+	}
+	.col-md-6:hover{
+		background-color:#f4f4f4;
+		
+		border: 10px solid $darkbg;
+		.text2{
+			margin-top: 90px;
+			color: $darkbg;
+			h6{color: $darkbg;}
+
+		}
+		h3{
+			display: block;
+		}
+	}
+
+}

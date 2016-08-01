@@ -1,0 +1,44 @@
+.whatweare{
+	.container{border-bottom: 1px solid $graybg;
+		padding-bottom: 100px;}
+	.text p {
+		margin-left: 0px;
+		margin-top: 100px;
+		font-size: 30px;
+		word-spacing: 2px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		letter-spacing: 2px;
+	}
+	.text h6{
+		margin-left: 0px;
+		word-spacing: 2px;
+		font-size: 16px;
+		letter-spacing: 1px;
+		margin-top: -10px;
+	}
+	.col-md-5, .col-md-6{
+		p{margin-top:40px;
+			font-size: 14px;
+
+		}
+	}
+}
+.rows{
+	margin: 80px 0px;
+
+
+	img{
+		margin-top: -100px;
+
+	}
+	p{display:inline-block;
+		font-size:14px;
+		letter-spacing: 1px;
+		margin-left: 10px;
+		span{font-size: 60px;
+			letter-spacing: 3px;
+
+		}
+	}
+}
